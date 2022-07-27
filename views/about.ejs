@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/style/home/about.css">
+    <link rel="stylesheet" href="../static/style/nav.css">
+    <title>Developed By</title>
+  </head>
+  <body>
+    <%-
+      include("partials/nav.ejs",{
+        type,
+        isLoggedIn
+      });
+    %>
+    <div class="about">
+      <div class="main">
+        <div class="box">
+          <div>
+            <img src="../static/images/about/vishal.jpg">
+          </div>
+          <div class="center">
+            <div>VISHAL</div>
+            <div class="description">B.E<br>2022 Passout<br>ZCOER</div>
+          </div>
+        </div>
+        <div class="box">
+          <div>
+            <img src="../static/images/about/ekansh.jpg">
+          </div>
+          <div class="center">
+              <div>EKANSH</div>
+              <div class="description">B.E<br>2022 Passout<br>ZCOER</div>
+          </div>
+        </div>
+        <div class="box">
+          <div>
+            <img src="../static/images/about/sanyami.jpg">
+          </div>
+          <div class="center">
+            <div>SANYAMI</div>
+            <div class="description">B.E<br>2022 Passout<br>ZCOER</div>
+          </div>
+        </div>
+		<div class="box">
+          <div>
+            <img src="../static/images/about/shubham.jpg">
+          </div>
+          <div class="center">
+            <div>SHUBHAM</div>
+            <div class="description">B.E<br>2022 Passout<br>ZCOER</div>
+          </div>
+        </div>
+      </div>
+      <div class="ocean">
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+      </div>
+    </div>
+  </body>
+</html>
